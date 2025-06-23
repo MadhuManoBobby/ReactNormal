@@ -1,0 +1,63 @@
+html{
+    background-color: rgb(236, 60, 80);
+}
+
+body{
+    width: 800px;
+    min-height: 150px;
+    max-height: 100%;
+    background-color: bisque;
+    text-align: center;
+    margin: 50px auto;
+    /* font-size: 20px; */
+    font-family: cursive;
+}
+ul li{
+    list-style-type: none;
+    text-align: left;
+}
+
+/* concatinating the desing with the element */
+ul li::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    background-image: url(media/png-transparent-round-red-ball-toy-3d-ball-graphy-balls-game-3d-computer-graphics-sphere-thumbnail\ \(2\).png);
+    background-size: cover;
+}
+
+button{
+    margin: 20px;
+    background-color: brown;
+    width: 250px;
+    height:60px;
+    color: rgb(220, 206, 178);
+    font-size: 1em;
+    border-radius: 25px;
+    border-width: 5px;
+    border-color: hsl(133, 36%, 28%);
+    border-style: solid;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(9, 145, 70);
+    color: white;
+}
+
+
+/* #portalRoot{
+    color: wheat;
+    background-color: black;
+    min-height: 100px;
+    max-height: 1200px;
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    padding: 10px;
+} */
